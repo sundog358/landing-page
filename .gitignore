@@ -1,0 +1,64 @@
+# Node modules (if using npm for any dependencies)
+node_modules/
+*.log
+
+# Environment variables
+.env
+
+# Build artifacts and temporary files
+dist/
+build/
+*.tmp
+*.cache
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor-specific files
+*.swp
+*.swo
+.vscode/
+.idea/
+*.iml
+
+# Debugging and testing
+*.test.*
+coverage/
+*.debug
+
+# Dependency lock files (optional, if not managed via npm or package managers)
+package-lock.json
+yarn.lock
+
+# Exclude compiled assets (if you precompile CSS or JS)
+*.min.js
+*.min.css
+
+# Ignore backups and temp files
+*.bak
+*.old
+*~
+*.tmp
+
+# Ignore compressed or archive files
+*.zip
+*.tar.gz
+*.rar
+
+# Files for local use only
+local/
+config.json
+data.json
+*.sqlite
+*.db
+
+# Exclude generated content (optional)
+docs/
+site/
+public/
+
+# Ignore sensitive files
+secrets.json
+credentials.json
